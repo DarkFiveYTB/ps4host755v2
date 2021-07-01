@@ -77,13 +77,7 @@ mymenu.style.display="block";
 </br>
 </br>
 </br>
-</br>
-</br>
-</br>
 <div style="font-size:30px;color:black">Para salir usa el botón PS de tu Control.</div>
-<br>
-<br>
-<br>
 <br>
 <br>
 <br>
@@ -107,7 +101,7 @@ window.failCounter.innerHTML=localStorage.failcount;
 
 
 function load_goldhenb(){
-msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Inyectando GoldHen V1.1 ...</h1>";
+msgs.innerHTML="<h1 style='font-size:27px;text-align:center;'>Inyectando GoldHen V1.1 ...</h1>";
 LoadedMSG="GoldHen V1.1 Inyectado";
 function getScript(source,callback){var gs=document.createElement('script');gs.src=source;gs.onload=callback;gs.async=false;document.body.appendChild(gs);}
 function loadScript(){getScript("exp_jailbreak1.js",function(){setTimeout(jailbreak,000);});}loadScript();
@@ -116,35 +110,35 @@ loadScript2();
 }
 
 function load_orbistoolbox(){
-msgs.innerHTML="Inyectando OrbisToolBox ...";
+msgs.innerHTML="<h1 style='font-size:27px;text-align:center;'>Inyectando OrbisToolBox ...";
 LoadedMSG="OrbisToolBox Inyectado";
 PLfile = "pl_OrbisToolbox.bin";
 loadScript2();
 }
 
 function load_binloader(){
-msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Inyectando Bin Loader ...";
+msgs.innerHTML="<h1 style='font-size:27px;text-align:center;'>Inyectando Bin Loader ...";
 LoadedMSG="Envía Payloads al puerto 9021";
 function loadScript(){getScript("exp_loaderBL.js",function(){});}
 loadScript();
 }
 
 function load_app2usb(){
-msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Inyectando App To Usb ...</h1>";
+msgs.innerHTML="<h1 style='font-size:27px;text-align:center;'>Inyectando App To Usb ...</h1>";
 LoadedMSG="App-To-Usb Inyectado";
 PLfile = "pl_app2usb.bin";
 loadScript2();
 }
 
 function load_fakeusb(){
-msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Inyectando Fake Usb ...</h1>";
+msgs.innerHTML="<h1 style='font-size:27px;text-align:center;'>Inyectando Fake Usb ...</h1>";
 LoadedMSG="Fake Usb Inyectado";
 PLfile="pl_fakeusb.bin";
 loadScript2();
 }
 
 function load_dumper(){
-msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Inyectando Dumper ...</h1>";
+msgs.innerHTML="<h1 style='font-size:27px;text-align:center;'>Inyectando Dumper ...</h1>";
 LoadedMSG="Dumper Inyectado";
 PLfile = "pl_dumper.bin";
 loadScript2();
